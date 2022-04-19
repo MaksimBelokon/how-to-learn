@@ -1,0 +1,15 @@
+.rotation {
+    animation-name: sq;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes sq {
+    from {
+        transform: rotate(0deg);
+      }
+    to {
+        transform: rotate(360deg);
+      }
+}
