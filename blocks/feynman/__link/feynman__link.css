@@ -9,3 +9,7 @@
     top: 50%;
     color: #2f80ed;
   }
+
+  .feynman__link:hover {
+    animation: op 1s  forwards;
+}

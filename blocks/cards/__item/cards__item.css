@@ -3,4 +3,17 @@
     text-align: center;
 }
 
+.cards__item:first-of-type {
+    margin-right: 100px;
+}
+
+.cards__item:nth-of-type(3n) {
+    margin-left: 100px;
+}
+
+.cards__item:nth-of-type(4n) {
+    margin-right: 100px;
+}
+
+
 
